@@ -999,22 +999,3 @@ footer {
   .about-features { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; text-align: center; }
-}
-
-@media (max-width: 480px) {
-  .hero h1 { font-size: 2rem; }
-  .hero p.lead { font-size: 1rem; }
-  .hero-ctas .btn { padding: 0.75rem 1.1rem; font-size: 0.9rem; }
-  .hero-visual img { max-width: 260px; }
-  .hero-visual .chip { display: none !important; }
-  .hero-stat .num { font-size: 1.4rem; }
-  .nav-brand img { width: 38px; height: 38px; }
-  .nav-brand-text .name { font-size: 1.05rem; }
-  .galeria-grid { grid-template-columns: 1fr; grid-auto-rows: 200px; }
-  .galeria-item:nth-child(1), .galeria-item:nth-child(4) { grid-column: span 1; }
-  .fab-wa { width: 52px; height: 52px; bottom: 18px; right: 18px; }
-  .curso-card .media { height: 170px; }
-  .about-visual .badge-float { left: 10px; padding: 0.7rem 0.9rem; }
-  .about-visual .badge-float .ic { width: 36px; height: 36px; }
-  .about-visual .sub-img { width: 42%; right: -5px; bottom: -15px; }
-}
